@@ -20,7 +20,7 @@ const ListItem: React.FC<ListItemProps> = ({
       <li>
         <a
           href={NavLink}
-          className={`flex py-2 text-body font-medium lg:ml-12 lg:inline-flex ${navItemStyles}`}
+          className={`flex py-2 text-body font-medium xl:ml-12 xl:inline-flex ${navItemStyles}`}
         >
           {children}
         </a>
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
                 id="navbarToggler"
                 className={` ${
                   open && "navbarTogglerActive"
-                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 xl:hidden`}
               >
                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
@@ -56,11 +56,11 @@ const Navbar: React.FC = () => {
               </button>
               <nav
                 id="navbarCollapse"
-                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${
+                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg py-5 px-6 shadow xl:static xl:block xl:w-full xl:max-w-full xl:shadow-none ${
                   !open && "hidden"
                 } `}
               >
-                <ul className="block lg:flex">
+                <ul className="block xl:flex">
                   <ListItem
                     navItemStyles="text-white hover:text-primary"
                     NavLink="/#"
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
                 </ul>
               </nav>
             </div>
-            <div className="justify-end hidden lg:ml-8 sm:flex lg:pr-0">
+            <div className="justify-end hidden xl:ml-8 sm:flex xl:pr-0">
               <Button outlined href="/">
                 Get in Touch
               </Button>

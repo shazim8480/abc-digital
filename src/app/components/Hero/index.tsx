@@ -4,7 +4,7 @@ import Button from "../Shared/Button";
 export default function Example() {
   return (
     <div>
-      <div className="w-full pt-32 sm:pt-48 lg:pt-120">
+      <div className="w-full pt-32 sm:pt-48 xl:pt-120">
         <div className="text-center">
           <h1 className="text-2xl font-semibold leading-tight text-gray">
             <span className=" text-primary">Innovative Solutions</span> <br />
