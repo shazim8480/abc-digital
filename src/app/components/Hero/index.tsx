@@ -8,7 +8,8 @@ export default function Example() {
         <div className="text-center">
           <h1 className="text-2xl font-semibold leading-tight text-gray">
             <span className=" text-primary">Innovative Solutions</span> <br />
-            for a<span className="ml-5 text-secondary">Digital World</span>{" "}
+            for a<span className="ml-5 text-secondary">Digital World</span>
+            <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               Trusted Agency
             </span>

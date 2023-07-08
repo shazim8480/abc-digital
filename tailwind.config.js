@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         primary: "rgba(144, 233, 0, 1)",
+        primary_200: "rgba(211, 246, 153, 1)",
         secondary: "rgba(239, 230, 0, 1)",
         gray: "rgba(233, 234, 236, 1)",
         dark: "rgba(30, 42, 55, 1)",
@@ -29,6 +30,7 @@ module.exports = {
       },
       borderRadius: {
         btn: "28px",
+        card: "40px",
       },
     },
   },
